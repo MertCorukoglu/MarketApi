@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MarketApi.Core\MarketApi.Core.csproj" />
+    <ProjectReference Include="..\MarketApi.Domain\MarketApi.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
